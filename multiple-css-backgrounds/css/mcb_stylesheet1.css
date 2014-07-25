@@ -1,18 +1,30 @@
 body{
-	
+	width: 100%;
 }
 
 h1{
 	position: absolute;
-	top: 200px;
-	left: 300px;
-	font-size: 50px;
+	top: 100px;
+	left: 415px;
+	font-size: 33px;
 }
 
-#map{
-	width: 100%;
+div{
+
+}
+#usa_map{
+	height: 850px;
+	background: url(../image/turqandbrownswirls.png) 250px 0px no-repeat, url(../image/western_map.png) 150px 150px no-repeat, url(../image/battlemap_background.jpg) no-repeat;
+}
+
+#world_map{
 	height: 700px;
-	background: url(../image/western_map.png) 150px 0px no-repeat, url(../image/battlemap_background.jpg) no-repeat;
+	background: url(../image/global_map.png) no-repeat, url(../image/notebook_background.jpg);
+	background-size: 100% auto;
 }
 
-
+#butterfly{
+	height: 1000px;
+	background: url(../image/butterfly_eyes.png) no-repeat, url(../image/aura_background.jpg);
+	background-size: 100% auto;
+}
